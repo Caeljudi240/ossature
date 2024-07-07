@@ -27,11 +27,13 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       getPages: [
         GetPage(
-            name: '/',
-            page: () => const AuthWrapper(),
-            middlewares: [AuthGuard()]),
+          name: '/',
+          page: () => const AuthWrapper(),
+        ),
         GetPage(
-            name: '/home', page: () => HomeView(), middlewares: [AuthGuard()]),
+          name: '/home',
+          page: () => HomeView(),
+        ),
         GetPage(name: '/login', page: () => LoginView()),
         GetPage(name: '/signup', page: () => SignUpView()),
       ],

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:ossature_ui/button/button.dart';
 import '../controllers/auth_controller.dart';
 
 class LoginView extends StatelessWidget {
@@ -30,7 +31,12 @@ class LoginView extends StatelessWidget {
               obscureText: true,
             ),
             const SizedBox(height: 20),
-            ElevatedButton(
+            OssatureButton(
+                label: 'test',
+                onPressed: () {
+                  print("toto");
+                }),
+            /* ElevatedButton(
               onPressed: () {
                 _authController.signIn(
                   _emailController.text.trim(),
@@ -44,7 +50,7 @@ class LoginView extends StatelessWidget {
                 Get.toNamed('/signup');
               },
               child: const Text('Create an account'),
-            ),
+            ), */
           ],
         ),
       ),
