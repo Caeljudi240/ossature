@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../controllers/auth_controller.dart';
-import '../services/localization_service.dart';
+import 'package:ossature_core/auth/controllers/auth_controller.dart';
+import 'package:ossature_core/services/localization_service.dart';
 
 class HomeView extends StatelessWidget {
   final _authController = Get.find<AuthController>();

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../controllers/auth_controller.dart';
+import 'package:ossature_core/auth/controllers/auth_controller.dart';
 
 class SignUpView extends StatelessWidget {
   final _emailController = TextEditingController();

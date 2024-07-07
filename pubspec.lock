@@ -329,11 +329,11 @@ packages:
     source: hosted
     version: "1.12.0"
   ossature_core:
-    dependency: transitive
+    dependency: "direct main"
     description:
       path: "."
       ref: main
-      resolved-ref: "65ddc6bc1b951ac54267b278553b3f611dd86af8"
+      resolved-ref: "7ec7d67ce359486e7c04940f40eb0b8f3e1d539e"
       url: "https://github.com/Caeljudi240/ossature_core.git"
     source: git
     version: "0.0.1"

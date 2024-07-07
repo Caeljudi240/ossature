@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:ossature_ui/button/button.dart';
-import '../controllers/auth_controller.dart';
 
 class LoginView extends StatelessWidget {
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
-  final _authController = Get.find<AuthController>();
 
   LoginView({super.key});
 
